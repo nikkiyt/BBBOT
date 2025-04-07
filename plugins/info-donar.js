@@ -26,8 +26,8 @@ const handler = async (m, {conn, usedPrefix, command}) => {
 *┃ ${tradutor.texto1[8]}*  
 *┃ ${tradutor.texto1[9]}* 
 *┃*
-*┃ ${tradutor.texto1[10]}* 
-*┃ ${tradutor.texto1[11]}* 
+*┃ ${tradutor.texto1[10]}* CONTACTO AL:
+*┃ ${tradutor.texto1[11]}* Wa.me /+56956938598
 *┃ ${tradutor.texto1[12]}* 
 *┗ ┅ ━━━━━━━━━━━━━━━━━ ┅ ━*
 `.trim();

@@ -31,7 +31,7 @@ ${tradutor.texto8[3]} ${name}
 ${tradutor.texto8[4]} ${age} ${tradutor.texto8[5]}
 ${tradutor.texto8[6]} 
 ┃ ${sn}
-${tradutor.texto8[7]}
+${tradutor.texto8[7]} 𝐁𝐛𝐲𝐍𝐢𝐤𝐤𝐢𝐭𝐚𝐁𝐨𝐭
 ${tradutor.texto8[8]} 
 ${tradutor.texto8[9]}
 ${tradutor.texto8[10]}

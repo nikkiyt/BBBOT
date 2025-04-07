@@ -28,12 +28,12 @@ const handler = async (m, { conn, usedPrefix }) => {
   const old = performance.now();
   const neww = performance.now();
   const rtime = (neww - old).toFixed(7);
-  const wm = 'The Mystic Bot';
+  const wm = '𝐁𝐛𝐲𝐍𝐢𝐤𝐤𝐢𝐭𝐚𝐁𝐨𝐭';
   const info = ` ${tradutor.texto1[0]}
 
-  ${tradutor.texto1[1]} Bruno Sobrino
-  ${tradutor.texto1[2]} +5219992095479
-  ${tradutor.texto1[3]} paypal.me/BrunoSob
+  ${tradutor.texto1[1]} Nikki Caster
+  ${tradutor.texto1[2]} Wa.me /+56956938598
+  ${tradutor.texto1[3]} 
 
   ${tradutor.texto1[4]} ${rtime}
   ${tradutor.texto1[5]} ${uptime}
