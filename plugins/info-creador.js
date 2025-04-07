@@ -11,11 +11,11 @@ const handler = async (m, {conn, usedPrefix}) => {
   const document = doc[Math.floor(Math.random() * doc.length)];
   const text = `${tradutor.texto1[0]} El número de mi creador es wa.me /+56956938598
 
-  ${tradutor.texto1[1]}
+  ${tradutor.texto1[1]} El número de mi creador es wa.me /+56956938598
 
-  ${tradutor.texto1[2]}
+  ${tradutor.texto1[2]} El número de mi creador es wa.me /+56956938598
 
-  ${tradutor.texto1[3]}
+  ${tradutor.texto1[3]} El número de mi creador es wa.me /+56956938598
 
   ${tradutor.texto1[4]}
 

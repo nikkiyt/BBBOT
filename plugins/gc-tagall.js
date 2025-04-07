@@ -12,7 +12,8 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
     throw false;
   }
   const pesan = args.join` `;
-  const oi = `${tradutor.texto1[0]} *Buenos Días / Tardes / Noches... 🤗🤗* ${pesan}`;
+  const oi = `${tradutor.texto1[0]} 
+  *Buenos Días / Tardes / Noches... 🤗🤗* ${pesan}`;
   let teks = `${tradutor.texto1[1]} 🥰𝐕𝐁 𝐍𝐈𝐊𝐊𝐈 𝐂𝐀𝐒𝐓𝐄𝐑 𝐋𝐎𝐒 𝐈𝐍𝐕𝐎𝐂𝐀 𝐏𝐑𝐄𝐂𝐈𝐎𝐒@𝐒🥰, 𝐍𝐎 𝐒𝐄𝐀𝐍 𝐏𝐋𝐀𝐍𝐓𝐈𝐓𝐀𝐒🫶${oi}\n\n${tradutor.texto1[2]}\n`;
   for (const mem of participants) {
     teks += `👑🎙️@${mem.id.split('@')[0]}\n`;
@@ -22,7 +23,7 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
 };
 handler.help = ['tagall <mesaje>', 'N <mesaje>'];
 handler.tags = ['group'];
-handler.command = /^(tagall|N|invocacion|todos|invocación)$/i;
+handler.command = /^(tagall|N|invocacion|todos|lideres)$/i;
 handler.admin = true;
 handler.group = true;
 export default handler;
